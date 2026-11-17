@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Grade Calculator </h1>
+        <label for="name"> Student Name:  </label>
+        <input type="text" id="name"
+        placeholder="Enter your name"><br><br>
+
+        <label for="fmark">First Subject Mark:</label>
+        <input type="number" id="fmark"
+        placeholder="Enter your First mark"><br><br>
+
+        <label for="smark">Second Subject Mark:</label>
+        <input type="number" id="smark"
+        placeholder="Enter your Second mark"><br><br>
+
+        <label for="tmark">Thierd Subject Mark: </label>
+        <input type="number" id="tmark"
+        placeholder="Enter your Third mark"><br><br>
+
+        <h3>Student Information</h3>
+        <h4 id="avarage">Result</h4>
+        
+
+         <button onclick="calculateGPA()">Calculate Grade</button>
+
+         <button onclick="Clear()" style="background-color: red;">Clear</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,43 +1,4 @@
-/*
-function calculat(){
-    let fnum=Number(document.Inputform.f_number.value);
-    let snum=Number(document.Inputform.s_number.value);
 
-    let answer;
-
-    let operator=document.Inputform.operation.value;
-    if (isNaN(fnum)|| isNaN(snum)){
-        document.getElementById("result").innerHTML=
-        "Enter only the number ";
-        return false;
-    }
-    switch(operator){
-        case '+':
-            answer=fnum+snum;
-            break;
-        case '-':
-            answer=fnum-snum;
-            break;
-        case '*':
-            answer=fnum*snum;
-            break;
-        case '/':
-            if(snum==0){
-                document.getElementById("resuli").innerHTML=
-                "division with 0 is not allowed";
-            }
-            else{
-                answer=fnum/snum
-            }
-            break;
-        default:
-            document.getElementById("result").innerHTML=
-            "Enter only number";
-            
-    }
-    document.getElementById("result").innerHTML=answer;
-}
-    */
    function calculator(){
     let fnum=Number(document.getElementById("num1").value);
     let snum=Number(document.getElementById("num2").value);
